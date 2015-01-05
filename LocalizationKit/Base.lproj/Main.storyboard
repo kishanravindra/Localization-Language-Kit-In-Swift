@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="LocalizationKit" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7VT-dN-PRo"/>
+                        <viewControllerLayoutGuide type="bottom" id="n6S-bp-T6B"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vsr-1r-izB">
+                                <rect key="frame" x="42" y="185" width="98" height="71"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="71" id="ZHS-Pg-x6N"/>
+                                    <constraint firstAttribute="width" constant="98" id="lSf-eK-gJD"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="flag_UK_england_united_kingdom-48.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="languageBtnTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="bqv-8L-roh"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Localization inside the app, without restaring or changing the iphone settings " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzE-a6-ao4">
+                                <rect key="frame" x="11" y="26" width="300" height="74"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="74" id="MKj-H8-20j"/>
+                                    <constraint firstAttribute="width" constant="300" id="v2C-ju-Nqj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="15"/>
+                                <color key="textColor" red="0.023849563519999999" green="0.2888162265" blue="0.41695232780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N5g-Ot-4QG">
+                                <rect key="frame" x="42" y="273" width="98" height="107"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="107" id="Hv4-qs-v33"/>
+                                    <constraint firstAttribute="width" constant="98" id="K0F-Gh-oCj"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="India-Flag.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="languageBtnTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="EbM-t1-NDU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7tP-bd-maf">
+                                <rect key="frame" x="42" y="388" width="98" height="107"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="98" id="Rs1-f6-q1Z"/>
+                                    <constraint firstAttribute="height" constant="107" id="pcO-Lz-zGh"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Japan-Flag.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="languageBtnTapped:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="pYa-6p-ijI"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GLF-WH-6Sw">
+                                <rect key="frame" x="14" y="110" width="290" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="JhD-aJ-mZo"/>
+                                    <constraint firstAttribute="width" constant="290" id="gSg-4G-ChL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="31"/>
+                                <color key="textColor" red="0.023849563519999999" green="0.2888162265" blue="0.41695232780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJA-Eh-5UG">
+                                <rect key="frame" x="184" y="208" width="71" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="71" id="3Vl-Wc-G4L"/>
+                                    <constraint firstAttribute="height" constant="25" id="GCa-UF-reR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="21"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hindi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XdT-yY-9qk">
+                                <rect key="frame" x="184" y="316" width="62" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="BPD-4q-LY9"/>
+                                    <constraint firstAttribute="width" constant="62" id="asE-rW-RYe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Japanase" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u56-aG-caO">
+                                <rect key="frame" x="169" y="431" width="86" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="dGJ-dv-sjU"/>
+                                    <constraint firstAttribute="width" constant="86" id="pgF-Rk-GV0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.18431372939999999" green="0.80000007149999997" blue="0.48235297199999999" alpha="1" colorSpace="deviceRGB"/>
+                        <constraints>
+                            <constraint firstItem="wzE-a6-ao4" firstAttribute="top" secondItem="7VT-dN-PRo" secondAttribute="bottom" constant="6" id="05W-1y-Ibm"/>
+                            <constraint firstItem="wzE-a6-ao4" firstAttribute="top" secondItem="7VT-dN-PRo" secondAttribute="bottom" constant="6" id="3f8-oe-e2f"/>
+                            <constraint firstItem="u56-aG-caO" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="153" id="4ag-h8-wnq"/>
+                            <constraint firstItem="7tP-bd-maf" firstAttribute="top" secondItem="N5g-Ot-4QG" secondAttribute="bottom" constant="8" id="6Bj-2b-x8D"/>
+                            <constraint firstItem="wJA-Eh-5UG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="168" id="7J9-lS-BvL"/>
+                            <constraint firstItem="n6S-bp-T6B" firstAttribute="top" secondItem="GLF-WH-6Sw" secondAttribute="bottom" constant="408" id="7ny-yR-3fy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="u56-aG-caO" secondAttribute="trailing" constant="49" id="86h-il-69I"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wJA-Eh-5UG" secondAttribute="trailing" constant="49" id="A7p-86-ZJ9"/>
+                            <constraint firstItem="n6S-bp-T6B" firstAttribute="top" secondItem="GLF-WH-6Sw" secondAttribute="bottom" constant="408" id="Aa8-vD-iwl"/>
+                            <constraint firstItem="GLF-WH-6Sw" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-2" id="Aqn-dw-rlN"/>
+                            <constraint firstItem="u56-aG-caO" firstAttribute="top" secondItem="XdT-yY-9qk" secondAttribute="bottom" constant="94" id="CqU-Sq-LvM"/>
+                            <constraint firstItem="GLF-WH-6Sw" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="D1K-6p-41i"/>
+                            <constraint firstItem="GLF-WH-6Sw" firstAttribute="top" secondItem="wzE-a6-ao4" secondAttribute="bottom" constant="10" id="D9c-4T-PGZ"/>
+                            <constraint firstItem="vsr-1r-izB" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="26" id="ErT-9R-0eg"/>
+                            <constraint firstItem="vsr-1r-izB" firstAttribute="top" secondItem="wzE-a6-ao4" secondAttribute="bottom" constant="85" id="FMy-fY-Os0"/>
+                            <constraint firstItem="N5g-Ot-4QG" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="26" id="K3e-ma-j9h"/>
+                            <constraint firstItem="n6S-bp-T6B" firstAttribute="top" secondItem="wzE-a6-ao4" secondAttribute="bottom" constant="468" id="KGM-C7-bR5"/>
+                            <constraint firstItem="XdT-yY-9qk" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="168" id="M3B-q0-TKs"/>
+                            <constraint firstItem="n6S-bp-T6B" firstAttribute="top" secondItem="u56-aG-caO" secondAttribute="bottom" constant="116" id="MdM-So-juz"/>
+                            <constraint firstItem="wzE-a6-ao4" firstAttribute="top" secondItem="7VT-dN-PRo" secondAttribute="bottom" constant="6" id="UQ4-Tj-JVz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="wzE-a6-ao4" secondAttribute="trailing" constant="-7" id="VmZ-DI-IsB"/>
+                            <constraint firstItem="N5g-Ot-4QG" firstAttribute="top" secondItem="vsr-1r-izB" secondAttribute="bottom" constant="17" id="ZqU-AI-5T7"/>
+                            <constraint firstItem="n6S-bp-T6B" firstAttribute="top" secondItem="7tP-bd-maf" secondAttribute="bottom" constant="73" id="ct2-O5-s14"/>
+                            <constraint firstItem="7tP-bd-maf" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="26" id="hPv-uo-Uab"/>
+                            <constraint firstItem="wzE-a6-ao4" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-5" id="mMS-jF-8cz"/>
+                            <constraint firstItem="XdT-yY-9qk" firstAttribute="top" secondItem="wJA-Eh-5UG" secondAttribute="bottom" constant="83" id="pYG-lJ-bkj"/>
+                            <constraint firstAttribute="centerY" secondItem="wzE-a6-ao4" secondAttribute="centerY" constant="221" id="rbl-tc-aNj"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XdT-yY-9qk" secondAttribute="trailing" constant="58" id="udz-Wf-eZt"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="568"/>
+                    <connections>
+                        <outlet property="headingLabel" destination="GLF-WH-6Sw" id="1OQ-lv-tKL"/>
+                        <outlet property="statusLabel" destination="wzE-a6-ao4" id="dSh-Pa-yWO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="149" y="283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="India-Flag.png" width="128" height="128"/>
+        <image name="Japan-Flag.png" width="128" height="128"/>
+        <image name="flag_UK_england_united_kingdom-48.png" width="48" height="32"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

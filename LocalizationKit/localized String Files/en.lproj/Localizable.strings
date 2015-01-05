@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  LocalizationKit
+
+  Created by Ravindra Kishan on 02/01/15.
+  Copyright (c) 2015 Ravindra Kishan. All rights reserved.
+*/
+"Hello" = "hello!";
+"Localization inside the app, without restaring or changing the iphone settings"  = "Localization inside the app, without restaring or changing the iphone settings!";
